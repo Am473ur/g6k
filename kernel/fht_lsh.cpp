@@ -361,7 +361,7 @@ void FastHadamardLSH::hash(const float * const v, float * const coeff, int32_t *
     double norm = 0.0;
     for (size_t i = 0; i < n; ++i) 
     {
-        norm += std::fabs(v[i]); 
+        norm += fabs(v[i]); 
     }
    
 
